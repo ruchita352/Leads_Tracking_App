@@ -1,0 +1,21 @@
+{
+  "name": "leads-tracking-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express and MongoDB backend serving the EJS leads portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node --test tests"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.12.1"
+  }
+}
